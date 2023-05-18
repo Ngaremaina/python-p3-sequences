@@ -1,4 +1,8 @@
-#!/usr/bin/env python3
-
 def print_fibonacci(length):
-    pass
+    mylist = []
+ 
+    a, b = 0, 1
+    while len(mylist) < length:
+        mylist.append(a)
+        a, b = b, a + b
+    print(mylist)
